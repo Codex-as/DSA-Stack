@@ -1,5 +1,5 @@
 class Solution {
-    public ArrayList<Integer> nextLargerElement(int[] arr) {
+    public ArrayList<Integer> previousSmallerElement(int[] arr) {
         int n = arr.length ;
         Stack<Integer> st = new Stack<>();
         ArrayList<Integer> ans = new ArrayList<>();
